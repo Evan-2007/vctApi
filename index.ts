@@ -60,7 +60,7 @@ const fetchLiveMatch = async (): Promise<LiveMatch> => {
         }
     }
 
-    return data.segments[0] || noLiveMatch;
+    return noLiveMatch;
 };
 
 const startServer = () => {
