@@ -31,3 +31,12 @@ Example
 ## /upcomming
 
 Comming soon. Will show all upcomming games. games can be filterd by event using event paramater and giving it the name of a event as its shown on vlr with spaces replaced with ``-``. Example: ``https://vlr.evanc.dev/upcomming?event=Champions-Tour-2024:-Americas-Stage-2``
+
+
+# Running Locally 
+- clone the git repo ``git clone https://github.com/Evan-2007/vctApi.git && cd vctApi``
+- Install the required node modules with ``pnpm i``
+- build the app using ``pnpm tsc``
+- Run the app using ``node ./build/index.js``
+- Got to http://localhost:3000 and you should see a page saying ``hello world``
+- Thats it you should now be able to qurry the endpoints
